@@ -1,6 +1,6 @@
-let continue = true
+let keepGoing = true //changed var name from keyword 'continue'
 
-while ( continue ) {
+while ( keepGoing ) {
 
     let goodbyes = 0
     let userInput = prompt()
@@ -8,7 +8,7 @@ while ( continue ) {
     if ( userInput = "" ) {
         alert("WHAT!?")
     }
-    else if ( userinput.toUppercase != statement ) {
+    else if ( userInput.toUppercase != statement ) {
         alert("SPEAK UP, KID!")
     }
     else if ( statement.toUppercase == statement ) {
@@ -18,11 +18,12 @@ while ( continue ) {
         goodbyes + 1
 
         if ( goodbyes == 1 ) {
-            alert("LEAVING SO SOON?')
+            alert("LEAVING SO SOON?")
         }
         else if ( goodbyes == 2 ) {
             alert("LATER, SKATER!")
-            continue = false
+            keep_going = false
         }
     }
 }
+
